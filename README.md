@@ -43,8 +43,8 @@ This project follows a separated architecture where the frontend and backend are
 ```
 MindTrack/
 │
-├── frontend/    # React Frontend
-├── backend/     # Express Backend
+├── frontend/    
+├── backend/     
 └── README.md
 ```
 
