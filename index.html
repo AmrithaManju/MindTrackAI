@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindTrack AI | Wellness Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SoulSync AI</h1>
+            <p>How are you feeling today?</p>
+        </header>
+
+        <main>
+            <section class="chat-section">
+                <div id="chat-window">
+                    <div class="bot-msg">Hi! I'm SoulSync. Tell me about your day.</div>
+                </div>
+                <div class="input-area">
+                    <input type="text" id="user-input" placeholder="Type your thoughts...">
+                    <button id="send-btn">Send</button>
+                </div>
+            </section>
+
+            <section class="stats-section">
+                <h3>Your Mood Journey</h3>
+                <canvas id="moodChart"></canvas>
+                <div id="ai-insight">AI is analyzing your trends...</div>
+            </section>
+        </main>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
