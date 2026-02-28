@@ -43,7 +43,7 @@ let moodChart = new Chart(moodCtx, {
 // 4. FUNCTION TO TALK TO BACKEND (NOT GEMINI DIRECTLY)
 async function getAIResponse(text) {
     try {
-        const response = await fetch("http://localhost:5000/analyze", {
+        const response = await fetch("https://mindtrackai.onrender.com/analyze", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ text })
