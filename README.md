@@ -11,6 +11,8 @@ The platform allows users to:
 This project follows a separated architecture where the frontend and backend are deployed independently.
 
 ---
+![MindTrack Dashboard](./IMG-20260228-WA0015.jpg)
+
 
 ## 🛠 Tech Stack
 
