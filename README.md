@@ -113,8 +113,8 @@ http://localhost:5000/api
 ```
 ## Team Members
 
--Amritha Santhosh
--Aswathi K
+- Amritha Santhosh
+- Aswathi K
 
 ---
 
