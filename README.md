@@ -111,12 +111,11 @@ GEMINI_API_KEY=your_gemini_api_key
 ```
 http://localhost:5000/api
 ```
-##Team Members
+## Team Members
 
-```
-Amritha Santhosh
-Aswathi K
-```
+-Amritha Santhosh
+-Aswathi K
+
 ---
 
 
